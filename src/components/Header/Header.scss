@@ -1,0 +1,15 @@
+.header {
+  span {
+    svg {
+      width: 32px;
+      height: 32px;
+      margin: 12px;
+      cursor: pointer;
+      transition: transform 0.5s ease-in-out;
+
+      &:hover {
+        transform: scale(1.15);
+      }
+    }
+  }
+}
